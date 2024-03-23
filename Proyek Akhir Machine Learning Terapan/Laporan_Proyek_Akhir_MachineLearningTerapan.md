@@ -93,10 +93,10 @@ Precision mengukur proporsi item yang relevan yang diprediksi secara benar dari 
 
 Berikut adalah formula dari Recommender System Precision.
 
-$$Precision = \frac{#of recommendation that are relevant}{#of item recommended}$$
+$$Precision = \frac{number of recommendation that are relevant}{number of item recommended}$$
 
 Keterangan:
-- #of recommendation that are relevant adalah jumlah item yang relevan yang diprediksi secara benar oleh sistem.
-- #of item recommended adalah jumlah item yang direkomendasikan.
+- number of recommendation that are relevant adalah jumlah item yang relevan yang diprediksi secara benar oleh sistem.
+- number of item recommended adalah jumlah item yang direkomendasikan.
 
 Dalam proyek ini, sistem rekomendasi diuji untuk memberikan top 10 rekomendasi buku yang relevan dengan buku yang di-input. Hasilnya menunjukkan semua buku yang direkomendasikan relevan/memiliki kategori yang sama dengan buku yang di-input sehingga dapat dikatakan sistem rekomendasi dalam proyek ini memiliki nilai precision sebesar 100%.
