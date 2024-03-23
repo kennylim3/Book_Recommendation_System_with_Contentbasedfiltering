@@ -80,7 +80,7 @@ Kualitas rekomendasi dalam content-based filtering sangat bergantung pada kualit
 Content-based filtering cenderung memperkuat filter bubble, yaitu kondisi di mana pengguna hanya menerima rekomendasi yang sesuai dengan preferensi yang sudah ada, tanpa diperkenalkan pada konten yang berbeda atau diversifikasi bacaan.
 
 ### Uji Top-n Recommendation
-![Top 10 Recommendation](https://binusianorg-my.sharepoint.com/personal/kenny_lim_binus_ac_id/_layouts/15/guestaccess.aspx?share=Ed-lU9_GeHdEsy439nnIZFEBO5hHq51ySut9HJXlfFKjFA&e=mfNrb2)
+![Top 10 Recommendation](https://drive.google.com/file/d/110QolYy_H2qYgDm1XUuq44cP4TaY-sAV/view?usp=sharing)
 
 ## Evaluation
 Pada proyek ini, metrik evaluasi yang digunakan adalah precision. Metrik evaluasi "precision" dalam konteks sistem rekomendasi mengukur seberapa banyak item yang direkomendasikan kepada pengguna yang relevan dengan preferensi atau minat mereka. Dalam sistem rekomendasi yang menggunakan content-based filtering, precision akan memberikan gambaran tentang seberapa baik sistem dalam merekomendasikan buku yang sesuai dengan karakteristik atau konten yang disukai pengguna.
