@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning - Kenny Lim
+# Laporan Proyek Machine Learning - Book Recommendation System with Content-Based Filtering
 
 ## Project Overview
 
@@ -49,13 +49,13 @@ Sumber dataset: https://www.kaggle.com/datasets/jalota/books-dataset
 1. Penanganan Missing Values:
 - Nilai null atau missing values dapat mengganggu konsistensi dan akurasi analisis data. Oleh karena itu, langkah-langkah penanganan nilai null penting untuk memastikan kualitas data sebelum dilakukan pemodelan.
 Pada proyek ini, teknik yang digunakan untuk menangani nilai null adalah dengan melakukan penghitungan nilai null untuk setiap kolom dan kemudian mengatasi nilai null tersebut dengan cara yang sesuai, seperti imputasi atau penghapusan baris/kolom.
-Penghapusan Duplikat (drop_duplicates):
+2. Penghapusan Duplikat (drop_duplicates):
 - Duplikasi data bisa menyebabkan bias dalam analisis dan pemodelan. Oleh karena itu, langkah penghapusan duplikat dilakukan untuk memastikan bahwa setiap entitas dalam dataset hanya direpresentasikan sekali, sehingga hasil analisis lebih akurat dan konsisten.
 Pada proyek ini, teknik yang digunakan adalah dengan menggunakan metode drop_duplicates() untuk menghapus baris yang memiliki nilai yang sama untuk semua kolom.
-2. Konversi Data Series Menjadi List:
+3. Konversi Data Series Menjadi List:
 - Dalam beberapa kasus, terutama ketika bekerja dengan beberapa metode atau library yang memerlukan input berupa list, mengonversi data series menjadi list diperlukan agar data dapat diproses dengan benar.
 - Pada proyek ini, teknik yang digunakan adalah dengan menggunakan metode tolist() untuk mengonversi data series menjadi list pada kolom-kolom tertentu seperti book_id, title, dan category.
-3. Pembuatan Dictionary dan DataFrame Baru:
+4. Pembuatan Dictionary dan DataFrame Baru:
 - Membuat dictionary untuk menentukan pasangan key-value pada data book_id, title, dan category memungkinkan representasi yang lebih terstruktur dan mudah dimanipulasi. Selain itu, mengonversi dictionary menjadi dataframe baru memudahkan dalam pemrosesan data dan mempersiapkan data untuk pemodelan.
 - Pada proyek ini, teknik yang digunakan adalah dengan membuat dictionary dari data book_id, title, dan category, kemudian mengonversinya menjadi dataframe baru yang akan digunakan dalam pemodelan.
 
